@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+#center{
+	width:400px;
+	margin:auto;
+	text-align:center;
+	padding:20px;
+	boarder-style:solid;
+	boarder-color:#B6C7D6;
+	boarder-radius:20px;
+	background-color:#EAF0F6;
+}
+body{
+	margin:auto;
+	width:640px;
+	padding:50px;
+	font-family:'Lexend Deca',sans-
+	serif;
+	color:#2E475D;
+}

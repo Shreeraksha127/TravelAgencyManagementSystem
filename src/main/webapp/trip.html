@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+<h1 id="heading">TRIP</h1>
+</div>
+<video autoplay loop muted plays-inline class="back-video">
+<source src="travelresort.mp4" type="video/mp4">
+</video>
+<div class="loginBox">
+<form action="trip" method="post">
+<!-- Karnataka-->
+<select id="city" name="city">
+    <option value="">Select Source</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Chikkamagalur">Chikkamagalur</option>
+    <option value="Mangalore">Mangalore</option>
+    <option value="Mysore">Mysore</option>
+    <option value="Shivamogga">Shivamogga</option>
+    <option value="Udupi">Udupi</option>
+Source:<input type="text" name="SOURCE" placeholder="Enter the selected  SOURCE" required/><br></br>
+<!-- Karnataka-->
+<select id="city" name="city">
+    <option value="">Select destination</option>
+     <option value="">Select Source</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Chikkamagalur">Chikkamagalur</option>
+    <option value="Mangalore">Mangalore</option>
+    <option value="Mysore">Mysore</option>
+    <option value="Shivamogga">Shivamogga</option>
+    <option value="Udupi">Udupi</option>
+DESTINATION:<input type="text" name="DESTINATION" placeholder="Enter selected destination"/><br></br>
+START DATE:<input type="text" name="SDATE" placeholder="Enter date in yyyy-mm-dd format"/><br></br>
+
+<input type="submit" value="SUBMIT">
+</form>
+
+
+</div>
+</body>
+</html>

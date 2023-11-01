@@ -1,0 +1,180 @@
+@charset "ISO-8859-1";
+body
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.loginBox
+{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 350px;
+height: 400px;
+padding:80px 40px;
+box-sizing:border-box;
+background:rgba(0,0,0,0.4)
+}
+.menuBox
+{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+width: 1200px;
+height: 500px;
+padding:80px 40px;
+box-sizing:border-box;
+background:rgba(0,0,0,.5);
+
+}
+.user
+{
+width: 100px;
+height: 100px;
+overflow:hidden;
+position:absolute;
+top:calc(-100px/2);
+left:calc(50% - 50px);
+}
+h2
+{
+margin: 0;
+padding:0 0 20px;
+color:#fff;
+text-align: center;
+}
+h3
+{
+color:#fff;
+}
+h1
+{
+color:#fff;
+text-align:center;
+font-size:60px;
+transition:0.5s;
+font-weight:600;
+}
+.content h1:hover{
+-webkit-text-stroke:2px #fff;
+color:transparent;
+}
+.content a{
+text-decoration:none;
+display:inline-block;
+color:#fff;
+font-size:16px;
+border:2px solid #fff;
+
+}
+
+
+.loginBox p
+{
+margin: 0;
+padding: 0;
+font-weight: bold;
+color: #fff;
+}
+.loginBox input
+{
+width: 100%;
+margin-bottom: 10px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+border:none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: #fff;
+font-size: 16px;
+}
+::placeholder
+{
+color:rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+background:#ff267e;
+cursor:pointer;
+border-radius:20px;
+}
+.loginBox input[type="submit"]:hover
+{
+background:#efed40;
+color:#262626;
+}
+.loginBox input[type="date"]
+{
+border:none;
+outline:none;
+height:30px;
+color:#fff;
+font-size:16px;
+background:#C0C0C0;
+cursor:pointer;
+border-radius:20px;
+}
+.loginBox a
+ul{
+list-style-type: none;
+margin: 0;
+padding: 10px;
+overflow:hidden;
+background-color: #333;
+
+}
+li{
+float:right;
+}
+li a{
+display:inline-block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+li a:hover{
+background-color:skyblue;
+}
+.active{
+background-color:red;
+}
+.background
+{
+height:100%;
+width:100%;
+background-position:center;
+background-size:cover;
+position:absolute;
+}
+.back-video{
+position: absolute;
+right: 0;
+bottom: 0;
+z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+.back-video{
+width: 100%;
+height: auto;
+}
+}
+@media(max-aspect-ratio: 16/9){
+.back-video{
+width: auto;
+height: 100%;
+}
+}
